@@ -3,16 +3,18 @@ import welcome from "../../assets/images/welcome.png";
 import done from "../../assets/images/done.png";
 import Card from "./Card";
 import CountCard from "./CountCard";
+import FeedBackSection from "./FeedBackSection";
 
 export default function Main() {
   return (
     <div className="w-full flex flex-col justify-center items-center px-20">
-      <div className="w-full flex flex-row flex-wrap justify-center items-center px-20 py-3 gap-20">
+      <FeedBackSection />
+      {/* <div className="w-full flex flex-row flex-wrap justify-center items-center px-20 py-3 gap-20">
         <CountCard imgSrc={done} text="Projects Complete" count="100+" />
         <CountCard imgSrc={done} text="Projects Complete" count="100+" />
         <CountCard imgSrc={done} text="Projects Complete" count="100+" />
         <CountCard imgSrc={done} text="Projects Complete" count="100+" />
-      </div>
+      </div> */}
 
       {/* <Note
         header="We provide various kind of service for you"
