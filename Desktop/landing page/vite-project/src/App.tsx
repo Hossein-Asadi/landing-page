@@ -4,8 +4,8 @@ import Main from "./components/Main";
 
 function App() {
   return (
-    <div>
-      <Header />
+    <div className="bg-slate-200">
+      {/* <Header /> */}
       <Main />
     </div>
   );
