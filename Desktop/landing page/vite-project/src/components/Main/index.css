@@ -5,6 +5,13 @@
 	height: 400px;
 	width: 0px;
 }
+.small-trapezoid {
+	border-left: 100px solid #4b34cf;
+	border-bottom: 50px solid transparent;
+	border-top: 50px solid transparent;
+	height: 400px;
+	width: 0px;
+}
 
 .right-trapezoid {
 	border-right: 150px solid #4b34cf;

@@ -13,12 +13,12 @@ export default function PhoneCard({
   imgAlt,
 }: PhoneCardProps) {
   return (
-    <div className="phone flex flex-col justify-center items-center w-[240px] bg-white border-4 border-gray-200 rounded-2xl shadow pt-14 px-1 pb-10 ">
+    <div className="phone flex flex-col justify-center items-center w-[160px] h-[350px] md:w-[220px] bg-white border-4 border-gray-200 rounded-2xl shadow pt-14 px-1 pb-10 ">
       <div className="notch-container">
         <div className="notch"></div>
       </div>
       <img
-        className="h-[160px] w-[240px] px-3 pb-4 rounded-lg"
+        className="h-[160px] w-[160px] px-3 pb-4 rounded-lg"
         src={imgSrc}
         alt={imgAlt}
       />
@@ -30,7 +30,7 @@ export default function PhoneCard({
         </a>
         <p className="text-center text-sm text-gray-500">{text}</p>
       </div>
-      <div className="flex flex-row gap-28 pt-4 px-3">
+      <div className="flex flex-row gap-14 md:gap-28 pt-4 px-3">
         <a href="#">Skip</a>
         <a href="#">Next</a>
       </div>

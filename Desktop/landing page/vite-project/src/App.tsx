@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="bg-slate-200">
       {/* <Header /> */}
-      {/* <Main /> */}
-      <Footer />
+      <Main />
+      {/* <Footer /> */}
     </div>
   );
 }
