@@ -2,6 +2,14 @@
 	border-left: 150px solid #4b34cf;
 	border-bottom: 50px solid transparent;
 	border-top: 50px solid transparent;
-	height: 250px;
+	height: 400px;
+	width: 0px;
+}
+
+.right-trapezoid {
+	border-right: 150px solid #4b34cf;
+	border-bottom: 50px solid transparent;
+	border-top: 50px solid transparent;
+	height: 400px;
 	width: 0px;
 }

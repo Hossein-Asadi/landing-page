@@ -30,7 +30,7 @@ export default function PhoneCard({
         </a>
         <p className="text-center text-sm text-gray-500">{text}</p>
       </div>
-      <div className="flex flex-row gap-28 pt-4">
+      <div className="flex flex-row gap-28 pt-4 px-3">
         <a href="#">Skip</a>
         <a href="#">Next</a>
       </div>
