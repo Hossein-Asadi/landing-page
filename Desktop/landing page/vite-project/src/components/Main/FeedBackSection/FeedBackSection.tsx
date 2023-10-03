@@ -1,4 +1,4 @@
-import { AiFillStar } from "react-icons/ai";
+import { AiFillStar, AiOutlineArrowRight } from "react-icons/ai";
 import person from "../../../assets/images/person.jpg";
 
 export default function FeedBackSection() {
@@ -14,18 +14,17 @@ export default function FeedBackSection() {
             Distribution Of Letters, As Opposed To Using Content.
           </p>
         </div>
-        <div>
-          <a href="#" className="hover:text-lg">
-            ReadMore
-          </a>
+        <div className="flex flex-row hover:text-lg hover:bg-black hover:text-white rounded-lg py-1 px-3 transition-all ease-in-out duration-300">
+          <a href="#">ReadMore</a>
+          <AiOutlineArrowRight className="pl-1 w-6 h-6" />
         </div>
       </div>
-      <div className="flex flex-row gap-6">
+      <div className="flex flex-row gap-6 bg-white rounded-lg shadow-lg">
         <img
           src={person}
           className="h-[150px] w-[180px] md:h-[250px] md:w-[300px]"
         />
-        <div className="flex flex-col justify-center gap-4">
+        <div className="flex flex-col justify-center gap-2 py-3">
           <div className="flex flex-row justify-start gap-2">
             <AiFillStar className="md:h-[25px] md:w-[25px] text-yellow-400" />
             <AiFillStar className="h-[15px] w-[15px] md:h-[25px] md:w-[25px] text-yellow-400" />

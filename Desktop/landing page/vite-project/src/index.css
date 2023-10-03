@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .header-query {
-      min-width: '833px';
-    }
-  }
+
 
 
 

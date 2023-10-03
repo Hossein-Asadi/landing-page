@@ -3,7 +3,8 @@ import { CiFacebook } from "react-icons/ci";
 
 export default function Footer() {
   return (
-    <div className="bg-slate-300 relative w-full flex flex-row justify-around gap-4 pt-14 pb-2 lg:px-30 text-sm sm:text-base ">
+    <footer className="bg-slate-300 relative w-full flex flex-row justify-around gap-4 pt-14 pb-2 lg:px-30 text-sm sm:text-base ">
+      {/* search section */}
       <div className="absolute top-[-30px] justify-center items-center w-full sm:w-[90%] md:w-[70%] bg-[#503cb0] flex flex-row rounded-lg pb-3">
         <div className="pl-3 w-full text-white">
           <p>Contact Us!</p>
@@ -27,7 +28,9 @@ export default function Footer() {
           </button>
         </div>
       </div>
+      {/* footer links */}
       <div className="flex flex-col gap-2">
+        {/* column-1 */}
         <div className="flex gap-1 pt-4">
           <div>
             <AiFillHome className="text-blue-800 w-[20px] h-[20px]" />
@@ -50,6 +53,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
+      {/* column-2 */}
       <div>
         <h2 className="pb-3">Links</h2>
         <ul className="flex flex-col gap-1 text-gray-500">
@@ -70,6 +74,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
+      {/* column-3 */}
       <div>
         <h2 className="pb-3">Support</h2>
         <ul className="flex flex-col gap-1 text-gray-500">
@@ -90,6 +95,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
+      {/* column-4 */}
       <div>
         <h2 className="pb-3">Contact Us</h2>
         <ul className="flex flex-col gap-1 text-gray-500">
@@ -98,6 +104,6 @@ export default function Footer() {
           <li>Tehran City</li>
         </ul>
       </div>
-    </div>
+    </footer>
   );
 }

@@ -6,6 +6,7 @@ import CountCard from "./CountCard";
 import FeedBackSection from "./FeedBackSection";
 import "./index.css";
 import PhoneCard from "./PhoneCard";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 export default function Main() {
   return (
@@ -73,8 +74,9 @@ export default function Main() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
           </div>
           <div>
-            <button className="border-black border-2 rounded-lg py-1 px-2">
+            <button className="flex flex-row border-black border-2 hover:text-lg hover:bg-black hover:text-white rounded-lg py-2 px-3 transition-all ease-in-out duration-300">
               <a href="#">Get More</a>
+              <AiOutlineArrowRight className="pl-1 w-6 h-6" />
             </button>
           </div>
         </div>
@@ -102,7 +104,7 @@ export default function Main() {
 
       {/* section 8: phone cards */}
       <div className="bg-white relative w-full flex flex-row mb-10">
-        <div className="child:absolute z-10 flex flex-row flex-wrap justify-around items-center py-4 gap-10 md:px-12 md:gap-20">
+        <div className="child:absolute z-10 flex flex-row flex-wrap justify-around items-center py-4 gap-5 md:px-12 md:gap-x-20 lg:gap-x-32 lg:pl-32">
           <PhoneCard
             header="Welcome"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"

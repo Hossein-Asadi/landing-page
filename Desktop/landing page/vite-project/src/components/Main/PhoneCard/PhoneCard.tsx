@@ -22,11 +22,13 @@ export default function PhoneCard({
       <div className="notch-container">
         <div className="notch"></div>
       </div>
+
       <img
         className="h-[160px] md:w-[150px] md:px-3 pb-4 rounded-lg"
         src={imgSrc}
         alt={imgAlt}
       />
+      
       <div className="px-1 pb-3">
         <a href="#">
           <p className="text-base text-center font-semibold tracking-tight text-gray-900 dark:text-white">
