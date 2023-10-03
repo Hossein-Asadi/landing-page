@@ -1,0 +1,50 @@
+.phone {
+    position: relative;
+  }
+  
+  .phone .notch-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+  }
+
+  .phone .end-container {
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+  }
+
+  .phone .volume-container {
+    position: absolute;
+    top : 40px;
+    right: -95px;
+    width: 100%;
+  }
+
+  
+  .phone .notch-container .notch {
+    width: 15vh;
+    height: 2.25vh;
+    margin: 0 auto;
+    background-color: #9faab4;
+    border-bottom-left-radius: 2.334vh;
+    border-bottom-right-radius: 2.334vh;
+  }
+  .phone .end-container .notch {
+    width: 10vh;
+    height: 0.5vh;
+    margin: 0 auto;
+    background-color: #9faab4;
+    border-bottom-left-radius: 2.334vh;
+    border-bottom-right-radius: 2.334vh;
+  }
+
+  .phone .volume-container .notch {
+    width: 0.75vh;
+    height: 8vh;
+    margin: 0 auto;
+    background-color: #9faab4;
+    border-bottom-left-radius: 2.334vh;
+    border-top-left-radius: 2.334vh;
+  }

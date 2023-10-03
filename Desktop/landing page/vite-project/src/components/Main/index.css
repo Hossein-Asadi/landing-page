@@ -1,0 +1,38 @@
+.trapezoid {
+	border-left: 150px solid;
+	border-bottom: 50px solid transparent;
+	border-top: 50px solid transparent;
+	height: 400px;
+	width: 0px;
+	border-image: 
+    radial-gradient(
+      to right, 
+	  #4b34cf
+      , 
+	  #e0dfe6
+      
+    ) 1 100%;
+}
+.small-trapezoid {
+	border-left: 100px solid #4b34cf;
+	border-bottom: 50px solid transparent;
+	border-top: 50px solid transparent;
+	height: 400px;
+	width: 0px;
+	border-image: 
+    radial-gradient(
+      to right, 
+	  #4b34cf
+      , 
+	  #e0dfe6
+      
+    );
+}
+
+.right-trapezoid {
+	border-right: 150px solid #4b34cf;
+	border-bottom: 50px solid transparent;
+	border-top: 50px solid transparent;
+	height: 400px;
+	width: 0px;
+}
