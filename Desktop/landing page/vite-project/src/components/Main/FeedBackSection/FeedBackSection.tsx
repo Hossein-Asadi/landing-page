@@ -1,10 +1,9 @@
 import { AiFillStar } from "react-icons/ai";
 import person from "../../../assets/images/person.jpg";
-interface FeedBackSectionProps {}
 
-export default function FeedBackSection({}: FeedBackSectionProps) {
+export default function FeedBackSection() {
   return (
-    <div className="w-full px-3 sm:px-16">
+    <div className="w-full px-3 sm:px-16 mb-10">
       <div className="flex flex-row justify-between items-center py-3">
         <div className="pr-10 sm:pr-20">
           <p className="text-lg sm:text-xl md:text-2xl">Our Clients Feedback</p>

@@ -6,9 +6,9 @@ import Main from "./components/Main";
 function App() {
   return (
     <div className="bg-slate-200">
-      {/* <Header /> */}
+      <Header />
       <Main />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
